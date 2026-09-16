@@ -1,0 +1,92 @@
+Colony Care & Cleanup / 殖民地照护与清理优化
+
+中文
+
+这是一个 Oxygen Not Included 复制人照护与清理便利合集。
+
+它的目标不是改变游戏平衡，而是减少一些常见但重复的麻烦：复制人受伤后不及时去病床、食物放到腐烂、拆建掉落物掉到难拿的位置、小液滩不能顺手拖干净、挖掘时沙土塌落后还要手动补挖。
+
+特别之处：
+- 把复制人照护、食物管理、掉落物处理、拖地清理和塌落挖掘放进同一个轻量合集。
+- 腐烂食物自动清扫逻辑已改为小批量分片扫描，减少大型基地周期性卡顿。
+- 塌落材料补挖已改成安全分批版：只处理仍然有效的地块，并分批检查掉落物，减少主线程突然卡顿。
+- 不新增建筑、不新增资源、不改配方，不改变游戏平衡。
+
+包含功能：
+- 伤员照护引导：受伤复制人会更主动地去医疗床。
+- 智能食物消耗：减少食物浪费，让复制人更合理地消耗新鲜度较低的食物。
+- 可拾取掉落优化：减少拆建和工作掉落物落到复制人难以拿到的位置。
+- 小液滩清理增强：取消原版拖地数量限制，小液滩也能直接清理。
+- 塌落材料自动补挖：自动给会塌落的沙、雪、泥土等材料添加挖掘任务，v1.0.8 起改为分批检查。
+- 腐烂食物自动清扫：v1.0.7 起改为小批量分片扫描，优先保证大型基地更顺滑。
+
+新增功能说明：
+腐烂食物自动清扫会识别 Rot Pile 和几乎完全腐烂的食物。v1.0.7 起改为小批量分片扫描，并限制单次扫描耗时，避免大型基地在固定间隔出现明显卡顿。
+
+使用建议：
+- 启用本合集后，请关闭对应的单独版本，避免重复加载。
+- 如果遇到问题，先只启用本合集测试。
+
+更新说明：
+v1.0.9：
+- 恢复塌落材料补挖的即时性：小规模塌落每帧都会被检查，大规模塌落才分批限流。
+- 污染土重新加入自动堆肥白名单。
+- 继续保留 v1.0.8 的失败格子短冷却，避免无效补挖反复重试。
+
+v1.0.8：
+- 优化塌落材料自动补挖，掉落物检查从每帧全量扫描改为小批量分片处理。
+- 给失败补挖的格子增加短暂冷却，避免无效格子反复重试造成卡顿。
+- 腐烂食物清扫和其他照护功能保持不变。
+
+v1.0.7：
+- 优化腐烂食物后台扫描，改为小批量分片处理，减少大型基地周期性卡顿。
+
+v1.0.5：
+- 重新加入塌落材料自动补挖。
+- 增加安全保护，避免已经消失、正在清理或无效的地块触发崩溃。
+- 其他照护与清理功能保持不变。
+
+English
+
+Colony Care & Cleanup is a quality-of-life bundle for Oxygen Not Included.
+
+It focuses on duplicant care and everyday cleanup without adding buildings, resources, recipes, or balance changes.
+
+What makes it useful:
+- Combines duplicant care, food handling, reachable drops, mopping, and falling-material cleanup into one lightweight bundle.
+- Optimizes the rotten food cleanup helper with small incremental scan batches for large colonies.
+- Uses a safer batched falling-material dig helper that skips invalid cells and avoids checking every falling object every frame.
+- No new buildings, resources, recipes, or balance changes.
+
+Included:
+- Injury Care Routing: wounded duplicants are encouraged to use medical beds.
+- Smart Food Use: helps reduce food waste by making food consumption more freshness-aware.
+- Reachable Drop Cleanup: reduces awkward item drops that are difficult for duplicants to reach.
+- Small Spill Mopping: removes the small liquid mop limit.
+- Falling Material Dig Assist: adds dig errands to unstable falling materials, optimized in v1.0.8 with batched checks.
+- Rotten Food Auto Sweep: optimized in v1.0.7 with small incremental scan batches to avoid periodic stutter in large colonies.
+
+The rotten food cleanup helper detects Rot Piles and almost fully spoiled food. In v1.0.7 it scans in small incremental batches so large colonies do not get one heavy periodic scan.
+
+Recommendation:
+- Disable the corresponding separate versions when using this bundle.
+- If something goes wrong, test with only this bundle enabled.
+
+Update:
+v1.0.9:
+- Restores falling-material dig responsiveness: small falls are checked every frame, while large batches are still capped.
+- Adds polluted dirt back to the auto-compost whitelist.
+- Keeps the failed-cell retry cooldown from v1.0.8 to avoid repeated invalid dig work.
+
+v1.0.8:
+- Optimized falling-material dig assist by replacing every-frame full scans with small batched checks.
+- Added a short retry cooldown for failed dig cells to avoid repeated invalid work.
+- Rotten food cleanup and other care features are unchanged.
+
+v1.0.7:
+- Optimized background rotten-food scanning with small incremental batches to reduce periodic stutter in large colonies.
+
+v1.0.5:
+- Re-added falling material dig assist.
+- Added safety checks for invalid, removed, or cleaning-up cells.
+- Other care and cleanup features remain unchanged.

@@ -1,0 +1,18 @@
+This bundle includes or depends on functionality from the following Oxygen Not Included mods:
+
+- Wounded Go To Med Bed by Cairath
+  Static ID: Cairath.WoundedGoToMedBed
+
+- Waste Not, Want Not by Peter Han
+  Static ID: PeterHan.NoWasteWant
+
+- No Drop
+  Static ID: NoDrop
+
+- No Mop Limit by asquared31415
+  Static ID: asquared31415.NoMopLimit
+
+- Falling Sand by Peter Han
+  Static ID: PeterHan.FallingSand
+
+Rotten Food Cleanup and bundle integration by Darren Lee.
