@@ -1,0 +1,8 @@
+{
+  "modId": "geysersEthanolGeyser",
+  "modName": "Custom Geysers - Ethanol Geyser",
+  "translations": {
+    "STRINGS.CREATURES.SPECIES.GEYSER.ETHANOL.NAME": "乙醇间歇泉",
+    "STRINGS.CREATURES.SPECIES.GEYSER.ETHANOL.DESC": "一股高压间歇泉，周期性地喷发炽热的<link=\"ETHANOL\">乙醇</link>"
+  }
+}

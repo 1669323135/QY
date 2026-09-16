@@ -1,0 +1,8 @@
+{
+  "modId": "geysersLeadVolcano",
+  "modName": "Custom Geysers - Lead Volcano",
+  "translations": {
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_LEAD.NAME": "铅火山",
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_LEAD.DESC": "一座周期性喷发熔融<link=\"MOLTENLEAD\">铅</link>的大型火山"
+  }
+}

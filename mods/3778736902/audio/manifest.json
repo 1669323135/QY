@@ -1,0 +1,245 @@
+{
+  "license": "Original procedural audio created for GRAVNet AI and Infrastructure; no game audio or third-party samples used.",
+  "sample_rate": 22050,
+  "format": "mono PCM16 WAV",
+  "sounds": {
+    "silicon_furnace_idle": {
+      "seconds": 8,
+      "description": "transformer hum and refractory resonance",
+      "peak": 0.86,
+      "rms": 0.339,
+      "seam_to_p99_step": 0.1627
+    },
+    "silicon_furnace_active": {
+      "seconds": 8,
+      "description": "induction buzz, granular feed, furnace thumps, and vent breath",
+      "peak": 0.86,
+      "rms": 0.2448,
+      "seam_to_p99_step": 0.0958
+    },
+    "lithography_machine_idle": {
+      "seconds": 8,
+      "description": "clean-room ventilation and a restrained servo whine",
+      "peak": 0.86,
+      "rms": 0.3478,
+      "seam_to_p99_step": 0.2217
+    },
+    "lithography_machine_active": {
+      "seconds": 8,
+      "description": "stepper sweeps, exposure ticks, and pick-and-place clicks",
+      "peak": 0.86,
+      "rms": 0.2546,
+      "seam_to_p99_step": 0.0441
+    },
+    "coolant_blender_idle": {
+      "seconds": 8,
+      "description": "enclosed circulation motor, primed water pump, and slow vessel slosh",
+      "peak": 0.86,
+      "rms": 0.3882,
+      "seam_to_p99_step": 0.3112
+    },
+    "coolant_blender_active": {
+      "seconds": 8,
+      "description": "loaded paddle motor, continuous water circulation, pipe rush, and moving bubbles",
+      "peak": 0.86,
+      "rms": 0.3139,
+      "seam_to_p99_step": 0.1563
+    },
+    "cooling_tower_idle": {
+      "seconds": 10,
+      "description": "quiet casing and duct resonance",
+      "peak": 0.86,
+      "rms": 0.425,
+      "seam_to_p99_step": 0.0517
+    },
+    "cooling_tower_active": {
+      "seconds": 10,
+      "description": "slow axial fan wash, outdoor airflow, and liquid trickle",
+      "peak": 0.86,
+      "rms": 0.2439,
+      "seam_to_p99_step": 0.0234
+    },
+    "compact_datacenter_idle": {
+      "seconds": 6,
+      "description": "small server fans and a rare relay tick",
+      "peak": 0.86,
+      "rms": 0.3469,
+      "seam_to_p99_step": 0.3197
+    },
+    "compact_datacenter_inference": {
+      "seconds": 6,
+      "description": "bright fan bed and packet chirps",
+      "peak": 0.86,
+      "rms": 0.3092,
+      "seam_to_p99_step": 0.4023
+    },
+    "compact_datacenter_research": {
+      "seconds": 6,
+      "description": "small fans with rising synchronized compute scans",
+      "peak": 0.86,
+      "rms": 0.2807,
+      "seam_to_p99_step": 0.3796
+    },
+    "radiator_datacenter_idle": {
+      "seconds": 9,
+      "description": "electronics clock and passive thermal ticks without airflow",
+      "peak": 0.86,
+      "rms": 0.4384,
+      "seam_to_p99_step": 0.0144
+    },
+    "radiator_datacenter_inference": {
+      "seconds": 9,
+      "description": "contact-vibration hum and telemetry pips without a fan",
+      "peak": 0.86,
+      "rms": 0.3497,
+      "seam_to_p99_step": 0.0859
+    },
+    "radiator_datacenter_research": {
+      "seconds": 9,
+      "description": "passive panel resonance and slow telemetry sweeps",
+      "peak": 0.86,
+      "rms": 0.3204,
+      "seam_to_p99_step": 0.0408
+    },
+    "industrial_datacenter_idle": {
+      "seconds": 8,
+      "description": "low multi-rack air-handler rumble",
+      "peak": 0.86,
+      "rms": 0.3476,
+      "seam_to_p99_step": 0.2121
+    },
+    "industrial_datacenter_inference": {
+      "seconds": 8,
+      "description": "heavy rack airflow and interleaved data ticks",
+      "peak": 0.86,
+      "rms": 0.2966,
+      "seam_to_p99_step": 0.8457
+    },
+    "industrial_datacenter_research": {
+      "seconds": 8,
+      "description": "harder ventilation and synchronized training pulses",
+      "peak": 0.86,
+      "rms": 0.2906,
+      "seam_to_p99_step": 0.8387
+    },
+    "cryogenic_datacenter_idle": {
+      "seconds": 10,
+      "description": "insulated compressor, coolant pump, and cold-metal ticks",
+      "peak": 0.86,
+      "rms": 0.3574,
+      "seam_to_p99_step": 0.049
+    },
+    "cryogenic_datacenter_inference": {
+      "seconds": 10,
+      "description": "powerful coolant circulation and compute pulses",
+      "peak": 0.86,
+      "rms": 0.291,
+      "seam_to_p99_step": 0.1908
+    },
+    "cryogenic_datacenter_research": {
+      "seconds": 10,
+      "description": "cryo pump with a resonant training arpeggio",
+      "peak": 0.86,
+      "rms": 0.3045,
+      "seam_to_p99_step": 0.1643
+    },
+    "combined_cycle_tier1_idle": {
+      "seconds": 8,
+      "description": "compact barring gear, coolant pump, and governor contacts",
+      "peak": 0.86,
+      "rms": 0.3377,
+      "seam_to_p99_step": 0.1876
+    },
+    "combined_cycle_tier1_active": {
+      "seconds": 8,
+      "description": "single-shaft turbine, six-cylinder compressor, alternator, and short recovery breaths",
+      "peak": 0.86,
+      "rms": 0.2947,
+      "seam_to_p99_step": 0.289
+    },
+    "combined_cycle_idle": {
+      "seconds": 10,
+      "description": "barring gear, lubrication pumps, and valve contacts",
+      "peak": 0.86,
+      "rms": 0.2962,
+      "seam_to_p99_step": 0.0865
+    },
+    "combined_cycle_active": {
+      "seconds": 10,
+      "description": "compressor strokes, combustor roar, blade-pass whine, and recovery exhaust breaths",
+      "peak": 0.86,
+      "rms": 0.2607,
+      "seam_to_p99_step": 0.1977
+    },
+    "magma_dynamo_idle": {
+      "seconds": 10,
+      "description": "sealed geothermal probe tension, idle coolant manifold, and thermal contraction",
+      "peak": 0.86,
+      "rms": 0.3705,
+      "seam_to_p99_step": 0.0812
+    },
+    "magma_dynamo_active": {
+      "seconds": 10,
+      "description": "deep magma convection, Super Coolant impeller loads, probe groans, and pipe strain",
+      "peak": 0.86,
+      "rms": 0.2532,
+      "seam_to_p99_step": 0.3394
+    },
+    "fusion_core_idle": {
+      "seconds": 12,
+      "description": "vacuum cryopumps, cold field hum, and chamber diagnostics",
+      "peak": 0.86,
+      "rms": 0.4073,
+      "seam_to_p99_step": 0.2385
+    },
+    "fusion_core_active": {
+      "seconds": 12,
+      "description": "field-coil impacts, singing plasma arcs, vacuum resonance, and cryogenic circulation",
+      "peak": 0.86,
+      "rms": 0.2717,
+      "seam_to_p99_step": 0.7772
+    },
+    "orbital_receiver_idle": {
+      "seconds": 9,
+      "description": "paired tracking-servo steps and a searching array sweep",
+      "peak": 0.86,
+      "rms": 0.4427,
+      "seam_to_p99_step": 0.1882
+    },
+    "orbital_receiver_active": {
+      "seconds": 9,
+      "description": "60 Hz rectifier stack, phased-array sweeps, bus impacts, and orbital lock response",
+      "peak": 0.86,
+      "rms": 0.2924,
+      "seam_to_p99_step": 0.0788
+    },
+    "orbital_rail_ejector_idle": {
+      "seconds": 10,
+      "description": "coolant pump, rail preload checks, and capacitor-bank resonance",
+      "peak": 0.86,
+      "rms": 0.2938,
+      "seam_to_p99_step": 0.067
+    },
+    "orbital_rail_ejector_active": {
+      "seconds": 10,
+      "description": "high-current mains bed, sequenced launch coils, contactors, and capacitor charging",
+      "peak": 0.86,
+      "rms": 0.2607,
+      "seam_to_p99_step": 0.6909
+    },
+    "orbital_rail_ejector_fire": {
+      "seconds": 1.6,
+      "description": "clamp release, electromagnetic coil acceleration, muzzle transient, and departing payload rush",
+      "peak": 0.86,
+      "rms": 0.143,
+      "seam_to_p99_step": 0.0
+    },
+    "orbital_satellite_deploy": {
+      "seconds": 0.9,
+      "description": "high-torque panel servo, twin latch contacts, and transmitter lock burst",
+      "peak": 0.86,
+      "rms": 0.1931,
+      "seam_to_p99_step": 0.0004
+    }
+  }
+}

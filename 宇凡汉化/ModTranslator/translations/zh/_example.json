@@ -1,9 +1,0 @@
-{
-  "modId": "ExampleMod",
-  "modName": "示例模组",
-  "translations": {
-    "ExampleMod.STRINGS.BUILDINGS.EXAMPLE.NAME": "示例建筑",
-    "ExampleMod.STRINGS.BUILDINGS.EXAMPLE.DESC": "这是一个示例建筑的描述。",
-    "ExampleMod.STRINGS.BUILDINGS.EXAMPLE.EFFECT": "这是一个<link=\"EFFECT\">效果</link>描述。"
-  }
-}
