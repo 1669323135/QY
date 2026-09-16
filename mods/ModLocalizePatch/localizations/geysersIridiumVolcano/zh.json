@@ -1,0 +1,8 @@
+{
+  "modId": "geysersIridiumVolcano",
+  "modName": "Custom Geysers - Iridium Volcano",
+  "translations": {
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRIDIUM.NAME": "<link=\"MOLTENIRIDIUM\">铱火山</link>",
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRIDIUM.DESC": "一座周期性喷发熔融<link=\"MOLTENIRIDIUM\">铱</link>的大型火山"
+  }
+}

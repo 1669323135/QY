@@ -1,0 +1,8 @@
+{
+  "modId": "geysersMercuryGeyser",
+  "modName": "Custom Geysers - Liquid Mercury Geyser",
+  "translations": {
+    "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_MERCURY.NAME": "<link=\"MERCURY\">液态汞间歇泉</link>",
+    "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_MERCURY.DESC": "一股高压间歇泉，周期性地喷发液态<link=\"MERCURY\">汞</link>"
+  }
+}

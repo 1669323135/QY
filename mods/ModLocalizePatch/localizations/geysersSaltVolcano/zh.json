@@ -1,0 +1,8 @@
+{
+  "modId": "geysersSaltVolcano",
+  "modName": "Custom Geysers - Salt Volcano",
+  "translations": {
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_SALT.NAME": "<link=\"MOLTENSALT\">盐火山</link>",
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_SALT.DESC": "一座周期性喷发熔融<link=\"MOLTENSALT\">盐</link>的大型火山"
+  }
+}

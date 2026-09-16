@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>ModLocalizePatch</AssemblyName>
+    <RootNamespace>ModLocalizePatch</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <!-- 自动检测缺氧安装路径（用于解析 DLL 引用） -->
+  <PropertyGroup>
+    <GamePath Condition="Exists('D:\Steam\steamapps\common\OxygenNotIncluded')">D:\Steam\steamapps\common\OxygenNotIncluded</GamePath>
+    <GamePath Condition="Exists('C:\Program Files (x86)\Steam\steamapps\common\OxygenNotIncluded')">C:\Program Files (x86)\Steam\steamapps\common\OxygenNotIncluded</GamePath>
+    <GamePath Condition="Exists('C:\Program Files\Steam\steamapps\common\OxygenNotIncluded')">C:\Program Files\Steam\steamapps\common\OxygenNotIncluded</GamePath>
+    <GamePath Condition="Exists('E:\Steam\steamapps\common\OxygenNotIncluded')">E:\Steam\steamapps\common\OxygenNotIncluded</GamePath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ManagedPath>$(GamePath)\OxygenNotIncluded_Data\Managed</ManagedPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(ManagedPath)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(ManagedPath)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>$(ManagedPath)\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(ManagedPath)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ManagedPath)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(ManagedPath)\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- 构建后将所有模组文件拷贝到 mod 根目录（mod.yaml 所在目录） -->
+  <Target Name="CopyToModRoot" AfterTargets="Build">
+    <PropertyGroup>
+      <ModRoot>$(ProjectDir)..</ModRoot>
+    </PropertyGroup>
+    <!-- 复制 DLL -->
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModRoot)" SkipUnchangedFiles="true" />
+    <!-- 复制模组配置文件 -->
+    <Copy SourceFiles="$(ModRoot)\mod.yaml" DestinationFolder="$(ModRoot)" SkipUnchangedFiles="true" Condition="Exists('$(ModRoot)\mod.yaml')" />
+    <Copy SourceFiles="$(ModRoot)\mod_info.yaml" DestinationFolder="$(ModRoot)" SkipUnchangedFiles="true" Condition="Exists('$(ModRoot)\mod_info.yaml')" />
+    <Copy SourceFiles="$(ModRoot)\preview.png" DestinationFolder="$(ModRoot)" SkipUnchangedFiles="true" Condition="Exists('$(ModRoot)\preview.png')" />
+    <!-- 复制汉化库目录（整个 localizations 文件夹） -->
+    <ItemGroup>
+      <LocFiles Include="$(ModRoot)\localizations\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(LocFiles)" DestinationFolder="$(ModRoot)\localizations\%(RecursiveDir)" SkipUnchangedFiles="true" />
+    <Message Text="[ModLocalizePatch] 模组文件已同步到: $(ModRoot)" Importance="high" />
+  </Target>
+
+</Project>

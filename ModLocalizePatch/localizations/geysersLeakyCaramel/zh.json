@@ -1,0 +1,8 @@
+{
+  "modId": "geysersLeakyCaramel",
+  "modName": "Custom Geysers - Leaky Caramel Fissure",
+  "translations": {
+    "STRINGS.CREATURES.SPECIES.GEYSER.SUCROSE_DRIP.NAME": "<link=\"MOLTENSUCROSE\">渗漏焦糖裂缝</link>",
+    "STRINGS.CREATURES.SPECIES.GEYSER.SUCROSE_DRIP.DESC": "一股周期性喷发沸腾<link=\"MOLTENSUCROSE\">液态蔗糖</link>的裂缝"
+  }
+}

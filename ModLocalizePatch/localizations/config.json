@@ -1,0 +1,20 @@
+{
+  "description": "汉化补丁配置文件。steamIdMapping 用于将 Steam 创意工坊 ID 映射到 localizations 目录下的翻译文件夹名。",
+  "usage": "键为 Steam 创意工坊 ID（模组文件夹名），值为 localizations 目录下对应的翻译文件夹名。如果翻译文件夹名与 Steam ID 相同，则无需在此配置。",
+  "steamIdMapping": {
+    "3113986230": "WallPumps",
+    "3740127708": "geysersEthanolGeyser",
+    "3591826138": "geysersLeakyCaramel",
+    "3508859197": "geysersNickelVolcano",
+    "3740131305": "geysersSaltVolcano",
+    "3508873047": "geysersIridiumVolcano",
+    "3508865977": "geysersLeadVolcano",
+    "3508870243": "geysersMercuryGeyser",
+    "3743015529": "geysersZincVolcano",
+    "3770134628": "guybrush.CritterOverlay",
+    "3798248283": "BionicsExpanded",
+    "BionicBoostersPlus": "BionicsExpanded",
+    "3778736902": "GRAVNetAI",
+    "germany7496.MEEPNetAI": "GRAVNetAI"
+  }
+}

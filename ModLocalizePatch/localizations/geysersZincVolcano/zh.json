@@ -1,0 +1,8 @@
+{
+  "modId": "geysersZincVolcano",
+  "modName": "Custom Geysers - Zinc Volcano",
+  "translations": {
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ZINC.NAME": "<link=\"MOLTENZINC\">锌火山</link>",
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ZINC.DESC": "一座周期性喷发熔融<link=\"MOLTENZINC\">锌</link>的大型火山"
+  }
+}

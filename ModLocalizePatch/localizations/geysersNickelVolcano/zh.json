@@ -1,0 +1,8 @@
+{
+  "modId": "geysersNickelVolcano",
+  "modName": "Custom Geysers - Nickel Volcano",
+  "translations": {
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NICKEL.NAME": "<link=\"MOLTENNICKEL\">镍火山</link>",
+    "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NICKEL.DESC": "一座周期性喷发熔融<link=\"MOLTENNICKEL\">镍</link>的大型火山"
+  }
+}

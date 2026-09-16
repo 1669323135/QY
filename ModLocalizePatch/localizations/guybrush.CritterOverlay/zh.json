@@ -1,0 +1,24 @@
+{
+  "modId": "guybrush.CritterOverlay",
+  "modName": "Critter Overlay",
+  "note": "该模组文本不走 STRINGS 键：exact 为整串精确替换（图例标签/顶栏），replace 为碎片替换（提示句，保留周围富文本）。由 CritterOverlayPatches 读取。",
+  "exact": {
+    "CRITTERS": "动物",
+    "Critters": "动物",
+    "Wild": "野生",
+    "Domesticated": "驯养",
+    "Eggs": "蛋",
+    "Untameable": "不可驯化"
+  },
+  "replace": {
+    "Highlights every critter on the asteroid, grouped by type. Click a type in the legend to cycle the camera through them.": "高亮显示小行星上的所有动物，按类型分组。点击图例中的类型可在它们之间循环切换镜头。",
+    "Critters that are still wild — they have not been tamed by a ranch.": "仍然是野生的动物——尚未被牧场驯化。",
+    "Critters that have been tamed, whether ranched, groomed or wrangled.": "已被驯化的动物——无论是在牧场饲养、梳理毛发还是套捕而来。",
+    "Loose eggs lying on the map — the ones waiting to be collected or incubated.": "散落在地图上的蛋——等待被收集或孵化。",
+    "Outside the explored map. ": "位于已探索地图之外。",
+    "Still buried. ": "仍被埋藏。",
+    "Click to move the camera to the next one.": "点击以将镜头移至下一个。",
+    "Click to move the camera to it.": "点击以将镜头移至它。",
+    "Click to move the camera to this ": "点击以将镜头移至该"
+  }
+}

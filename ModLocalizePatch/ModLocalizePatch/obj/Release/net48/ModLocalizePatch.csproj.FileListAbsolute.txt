@@ -1,0 +1,10 @@
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\bin\Release\net48\ModLocalizePatch.dll
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\bin\Release\net48\ModLocalizePatch.pdb
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\obj\Release\net48\ModLocalizePatch.csproj.AssemblyReference.cache
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\obj\Release\net48\ModLocalizePatch.GeneratedMSBuildEditorConfig.editorconfig
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\obj\Release\net48\ModLocalizePatch.AssemblyInfoInputs.cache
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\obj\Release\net48\ModLocalizePatch.AssemblyInfo.cs
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\obj\Release\net48\ModLocalizePatch.csproj.CoreCompileInputs.cache
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\obj\Release\net48\ModLocalizePatch.sourcelink.json
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\obj\Release\net48\ModLocalizePatch.dll
+E:\编码仓库\QY\ModLocalizePatch\ModLocalizePatch\obj\Release\net48\ModLocalizePatch.pdb
